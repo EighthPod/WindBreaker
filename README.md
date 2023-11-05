@@ -6,7 +6,6 @@ Submitted by:
 - Tinina Dowell
 - Dandre Mercer
 - Jinash Rouniyar
-- 
 Time spent: **X** hours spent in total
 
 ## Summary
