@@ -1,4 +1,4 @@
-# AND101 Milestone 1 - **Team/App Name**
+# AND101 Milestone 1 - **Pod 8 - WindBreaker**
 
 Submitted by:
 - Tyson Lowe
@@ -11,9 +11,9 @@ Time spent: **4** hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **short description of your app**
+This document provides an overview, project spec, and wireframes for our team's capstone project: An app that is designed to give users weather data for their day. If you are someone who works outside, commutes a lot, or you are just a casual user, you can plan your day accordingly since the weather app will support multiple locations. Everything is planned to use one screen and allows options for customization such as toggles for themes, notifications, types of units, and even graphs based on the weather.
 
-If we had to describe this milestone in three (3) emojis, they would be: **emojis here**
+If we had to describe this milestone in three (3) emojis, they would be: **☀️🌧️❄️**
 
 ## Milestone Requirements
 
