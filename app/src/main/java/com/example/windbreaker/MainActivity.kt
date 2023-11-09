@@ -3,7 +3,7 @@ package com.example.windbreaker
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-// Test 2
+// Test 3
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
