@@ -31,26 +31,26 @@ This weather app is designed to give users weather data for their day. If you ar
 Required Features:
 (Minimum Viable Product, MVP)
 
-- **Basic weather data**
-User input for ZIP code
-Display city, temperature, atmospheric pressure, wind speed, wind direction, feels like, cloudiness, humidity, rain and snow for last hour and last 3 hours, time of the report
-- **Edit text and button to store additional locations**
-- **Data for each location displayed as part of the RecyclerView**
+- [x] **Basic weather data**
+- User input for ZIP code
+- Display city, temperature, atmospheric pressure, wind speed, wind direction, feels like, cloudiness, humidity, rain for the next 24 hours, time of the report
+- [x] **Edit text and button to store additional locations**
+- [x] **Data for each location displayed as part of the RecyclerView**
 
 Stretch Features:
 
-- **Buttons to store things**
-Example: multiple settings
-- **Handle latitude and longitude input**
-- **Use different API call for forecast**
-- **Notifications for upcoming severe weather events**
-- **Themes to go along with the current weather, utilize dark mode and light mode in a different way**
-- **Button to change setting for celsius, farenheit, km/h, mp/h**
-- **Other, more niche weather data such as UV index and air pollution**
-- **Add visualization to the data**
-Example: graphs or charts for minute-by-minute rain or temperature
-- **Implement further UI components such as snackbar**
-- **Implement more ways for the user to interact with the app and the data**
+- [] **Buttons to store things**
+- [] Example: multiple settings
+- [] **Handle latitude and longitude input**
+- [] **Use different API call for forecast**
+- [] **Notifications for upcoming severe weather events**
+- [] **Themes to go along with the current weather, utilize dark mode and light mode in a different way**
+- [] **Button to change setting for celsius, farenheit, km/h, mp/h**
+- [] **Other, more niche weather data such as UV index and air pollution**
+- [] **Add visualization to the data**
+- []Example: graphs or charts for minute-by-minute rain or temperature
+- [] **Implement further UI components such as snackbar**
+- [] **Implement more ways for the user to interact with the app and the data**
 
 ### 2. Chosen API(s)
 
@@ -73,24 +73,24 @@ Example: graphs or charts for minute-by-minute rain or temperature
 
 Required Features:
 
-- **User inputs ZIP and presses button (numbers only)**
+- [x] **User inputs ZIP and presses button (numbers only)**
   - => **Action:** User inputs ZIP code into edit text UI component, then user presses submit button.
   - => **Result:** OpenWeatherMap API is queried and data is retrieved for the user's location.
-- **User adds multiple locations**
+- [x] **User adds multiple locations**
   - => **Action:** User inputs ZIP code for other locations such as home, work, school, etc. as defined by the user.
   - => **Result:** Weather data for each location is displayed in separate containers within the RecyclerView.
 
 Stretch Features:
-- **User can enable notifications for severe weather events**
+- [] **User can enable notifications for severe weather events**
   - => **Action:** Allow the user to toggle a button for notifications of severe weather events.
   - => **Result:** The user receives notifications on the device when a severe weather event happens for one of the locations as defined by the user.
-- **User changes themes**
+- [] **User changes themes**
   - => **Action:** The user can toggle a button for customized themes.
   - => **Result:** Dark mode & light mode are enabled with themes and styles based on current weather events for each container within the RecyclerView.
-- **User can access enhanced weather data**
+- [] **User can access enhanced weather data**
   - => **Action:** User long presses a location container.
   - => **Result:** Enhanced weather data such as UV index and air pollution is displayed for that location.
-- **Implement button to toggle for different conversions**
+- [] **Implement button to toggle for different conversions**
   - => **Action:** User presses button for celsius or farenheit for temperature. User presses button for km/h or mp/h for speed. Buttons are displayed outside of the RecyclerView as a setting.
   - => **Result:** App displays results for the conversions.
 
