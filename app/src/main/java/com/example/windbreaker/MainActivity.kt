@@ -29,11 +29,22 @@ class MainActivity : AppCompatActivity() {
     private fun fetchWeatherData(zipCode: String) {
         var apiKey = "API KEY"
         val apiURL = "http://api.openweathermap.org/data/2.5/weather?zip=$zipCode&appid=$apiKey&units=imperial"
-
         val client = AsyncHttpClient()
+
         client[apiURL, object : JsonHttpResponseHandler() {
-            override fun onSuccess(statusCode: Int, headers: Headers, response: JSON) {
-                // Parse JSON response
+            override fun onSuccess(statusCode: Int, headers: Headers, json: JsonHttpResponseHandler.JSON) {
+                val jsonResponse = json.jsonObject // Get JSON object
+
+                // Extract data
+                val main = jsonResponse.getJSONObject("main") // "main" object from JSOn response
+                val temperature = main.getDouble("temp")
+                val feelsLike = main.getDouble("feels_like")
+                val pressure = main.getInt("pressure")
+                val humidity = main.getInt("humidity")
+
+                val wind = jsonResponse.getJSONObject("wind")
+                val windSpeed = wind.getDouble("speed")
+                val windDirection = wind.getInt("deg") // degrees
             }
 
             override fun onFailure(
