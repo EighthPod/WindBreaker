@@ -39,16 +39,14 @@ Required Features:
 
 Stretch Features:
 
-- [] **Buttons to store things**
-- [] Example: multiple settings
+- [] **Buttons to store things** Example: multiple settings
 - [] **Handle latitude and longitude input**
 - [] **Use different API call for forecast**
 - [] **Notifications for upcoming severe weather events**
 - [] **Themes to go along with the current weather, utilize dark mode and light mode in a different way**
 - [] **Button to change setting for celsius, farenheit, km/h, mp/h**
 - [] **Other, more niche weather data such as UV index and air pollution**
-- [] **Add visualization to the data**
-- []Example: graphs or charts for minute-by-minute rain or temperature
+- [] **Add visualization to the data** Example: graphs or charts for minute-by-minute rain or temperature
 - [] **Implement further UI components such as snackbar**
 - [] **Implement more ways for the user to interact with the app and the data**
 
