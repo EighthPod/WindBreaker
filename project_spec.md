@@ -109,6 +109,9 @@ process, or what you learned this unit!
 
 For Milestone 2, include **2+ Videos/GIFs** of the build process here!
 
+<img src='https://i.imgur.com/1o0u3V3.gif' title='Video Demo 1' width='' alt='Video Demo 1' />
+<img src='https://i.imgur.com/k1m4WKm.gif' title='Video Demo 2' width='' alt='Video Demo 2' />
+
 ## License
 
 Copyright **2023** **Austin Wood, Tyson Lowe, Jinash Rouniyar, Tinina Dowell**
